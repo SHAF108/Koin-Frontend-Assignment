@@ -1,0 +1,38 @@
+.progressbar{
+    /*Size*/
+    background: rgb(144, 238, 144);
+}
+
+
+
+.progressbar-hold{
+    background: rgb(128,128,128);
+}
+.sell-progressbar{
+    background: rgb(255, 0, 0);
+}
+.sell-progressbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sell-progressbar-text-container{
+    width: 30px;
+     margin-left: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    /* color: white; */
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 15px;
+}
+.circle{
+    border-top-left-radius: 25%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    position: absolute;
+}
